@@ -1,100 +1,11 @@
-# Jarvis Desktop Voice Assistant🔥
 
-<img src="https://giffiles.alphacoders.com/212/212508.gif" alt="">
+📢 AI Voice Assistant in the System (Using Python)
 
-**Have you ever wondered how cool it would be to have your own assistant? Imagine how easier it would be doing Wikipedia searches without opening web browsers, and performing many other daily tasks like playing music with the help of a single voice command, opening different browsers in just a voice command.**
+This project is a desktop-based AI Voice Assistant developed using Python. It is designed to listen to your voice commands and perform various tasks on your system, acting like a personal digital assistant. With the help of speech recognition and text-to-speech technologies, the assistant can understand spoken commands, respond verbally, and carry out tasks such as opening applications, searching the web, telling jokes, playing music, and even taking screenshots. It also provides real-time information like the current date and time, performs Wikipedia searches, and can control system functions like shutdown or restart.
 
-**This project is simple desktop voice assistant built with python named as “Jarvis Desktop Voice Assistant”. This project is fully completed and error free. It was compiled in VS Code Editor.**
+The assistant is built using Python libraries including pyttsx3 for text-to-speech conversion, speech_recognition for voice input, wikipedia for fetching information, webbrowser to open websites, pyautogui for screenshots, and pyjokes to add a bit of humor. To run this project, you simply need to clone the repository, create and activate a virtual environment, install the required dependencies from the requirements.txt file, and then run the main script jarvis.py located in the Jarvis folder. Make sure your microphone is working and has access permissions for smooth operation.
 
-**🔸 Let's be honest, it's not as intelligent as in the movie, but it can do a lot of cool things and automate your daily tasks you do on your personal computers/laptops.**
+Once running, you can interact with the assistant using voice commands such as “what is the time”, “open Google”, “open Notepad”, “tell me a joke”, “play music”, “take screenshot”, or “search Wikipedia for Python”. The assistant will respond to your commands with spoken output and take appropriate actions on your system. You can also personalize it by changing its name using the built-in rename function. This project is fully customizable and can be extended with more features, making it a great starting point for learning about voice interfaces, automation, and AI-based system assistants. It is licensed under the MIT License, so you are free to use and modify it as needed.
 
-## 📌Built with
+https://github.com/user-attachments/assets/ab6b2919-4409-4fee-b1a4-3685daf65ba6
 
-<code><img height="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png"></code>
-
-## 📌Features
-
-It can do a lot of cool things, some of them being:
-
-- Greet user
-- Tell current time and date
-- Launch applications/softwares
-- Open any website
-- Tells about any person (via Wikipedia)
-- Can search anything on Google
-- Plays music
-- Take important note in text file
-- Can take screenshot and save it with custom filename
-- Can tell jokes
-
-## Requirements
-
-Python 3.6+
-
-## 📌Installation
-
-1. **Fork The Repository**
-   - Click the "Fork" button on the top right corner of the repository page.
-
-2. **Clone The Repository**
-   - Clone the forked repository to your local machine:
-     ```bash
-     git clone <URL>
-     cd Jarvis-Desktop-Voice-Assistant
-     ```
-
-3.  **Create and Activate a Virtual Environment**
-     - Create a virtual environment:
-     ```bash
-     python -m venv .venv
-     ```
-   - Activate the virtual environment:
-     - For Windows:
-       ```bash
-       .venv\Scripts\activate
-       ```
-     - For macOS/Linux:
-       ```bash
-       source .venv/bin/activate
-       ```
-   - This activates the virtual environment and should look like `(venv) directory/of/your/project>`
-
-4. **Install Requirements**
-
-   - Install all the requirements given in **[requirements.txt](https://github.com/kishanrajput23/Jarvis-Desktop-Voice-Assistant/blob/main/requirements.txt)** by running the command `pip install -r requirements.txt`
-
-5. **Install PyAudio**  
-   - Follow the instructions given **[here](https://stackoverflow.com/questions/52283840/i-cant-install-pyaudio-on-windows-how-to-solve-error-microsoft-visual-c-14)**
-
-6. **Run the Assistant**
-  - Run the main script:
-    ```bash
-    python jarvis.py
-    ```
-  - Now Enjoy with your own assistant !!!!
-
-7. **Deactivate the Virtual Environment**
-   - After you're done, deactivate the virtual environment:
-     ```bash
-     deactivate
-     ```
-
-## 📌Contributing
-
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-## 📌Author
-
-👤 **Kishan Kumar Rai**
-
-- Twitter: [@kishan_rajput23](https://twitter.com/kishan_rajput23)
-- Github: [@kishanrajput23](https://github.com/kishanrajput23)
-- LinkedIn: [@kishan-kumar-rai](https://linkedin.com/in/kishan-kumar-rai-23112000)
-
-## 📌Show your support
-
-Please ⭐️ this repository if this project helped you!
-
-## 📌License
-
-This project is [MIT](https://choosealicense.com/licenses/mit/) licensed.
